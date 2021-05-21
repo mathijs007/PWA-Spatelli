@@ -2,7 +2,7 @@
 
 Let's you order pasta and drinks, has a favouritism system and Nr for localforage
 
-Website: [matheus007.be](https://matheus007.be)
+Website: /
 ## Design
 
 Adobe xd file ('PastaApp.xd') is in de repository.
