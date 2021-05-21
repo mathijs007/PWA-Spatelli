@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomePage</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Pasta PWA for schoolwork.">
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "643afbba-0dd8-4abb-a526-ad64d2cb67d7",
+                autoRegister: true,
+                notifyButton: {
+                    enable: true,
+                },
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css" />
+</head>
+
+<body>
+    <div>
+        <img class="logo" src="images/logo.png" alt="#" />
+        <nav>
+            <a href="Order.html">Order</a>
+            <a href="Favourites.html">Favourites</a>
+            <a href="YourOrder.html">Your order</a>
+        </nav>
+    </div>
+    <main>
+        <img class="mySlides" src="images/1.png" alt="image1" />
+        <img class="mySlides" src="images/2.png" alt="image2" />
+        <img class="mySlides" src="images/3.png" alt="image3" />
+        <button class="w3-button w3-display-left">&#10094;</button>
+        <button class="w3-button w3-display-right">&#10095;</button>
+        <a href="Order.html" class="button">Order now!</a>
+    </main>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/ServiceWorker.js"></script>
+</body>
+
+</html>

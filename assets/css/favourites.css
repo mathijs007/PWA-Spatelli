@@ -1,0 +1,23 @@
+li{
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    width: 30%;
+    margin: 2%;
+}
+
+p {
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 500px) {
+    li img {
+        width: 8%;
+    }
+
+    p {
+        margin: 4%;
+    }
+}

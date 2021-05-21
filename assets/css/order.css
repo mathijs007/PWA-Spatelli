@@ -1,0 +1,144 @@
+main div {
+    background: white;
+    margin: 5% 0;
+    border: none;
+}
+
+a {
+    margin: 3%;
+}
+
+img {
+    margin: 3%;
+    height: inherit;
+    width: 30%;
+}
+
+main>p {
+    font-size: 3rem;
+    position: inherit;
+    text-shadow: black 1px 1px;
+}
+
+p {
+    font-size: 1.25rem;
+    text-shadow: none;
+    position: absolute;
+    left: 45%;
+    top: 37%;
+}
+
+li {
+    width: 92%;
+    display: flex;
+    align-items: center;
+    padding: 4% 2%;
+    background: linear-gradient(to bottom, #76CDCD 5%, #188083 100%);
+    margin: 2% auto;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+li a {
+    position: absolute;
+    right: 5%;
+    margin: auto;
+}
+
+a[title="sendButton"] {
+    font-size: 3rem;
+    background: linear-gradient(to bottom, #76CDCD 5%, #2CCED2 100%);
+}
+
+input {
+    padding: 3% 5%;
+    border-radius: 21%;
+    position: absolute;
+    bottom: 0;
+    right: 17%;
+    font-size: 2rem;
+    background: linear-gradient(to bottom, #76CDCD 5%, #2CCED2 100%);
+    color: white;
+    border: 3px #6adede solid;
+}
+
+input:hover {
+    color: #2CCED2;
+    background: white;
+}
+
+.heart,
+.flex {
+    display: flex;
+    position: unset;
+}
+
+.heart {
+    margin-right: 5%;
+    font-size: 3rem;
+    align-items: center;
+}
+
+.flex {
+    align-items: flex-start;
+}
+
+.back {
+    margin: 4%;
+}
+
+@media only screen and (min-width: 500px) {
+    main div {
+        margin: 0;
+    }
+
+    main>p {
+        margin: 2%;
+    }
+
+    main a:last-child {
+        margin: auto;
+    }
+
+    p {
+        font-size: 2rem;
+        left: 20%;
+    }
+
+    img {
+        width: 9%;
+    }
+
+    input {
+        padding: 1.5% 3%;
+        bottom: 29%;
+        left: 65%;
+    }
+
+    li {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    a[title="sendButton"] {
+        padding: 2% 2px;
+        margin: auto;
+        width: 25%;
+    }
+
+    .heart {
+        top: 35%;
+        left: 15%;
+    }
+
+    .flex {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) and (max-height: 400px) {
+    input {
+        left: 80%;
+    }
+}
